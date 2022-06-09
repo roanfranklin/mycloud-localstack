@@ -47,6 +47,7 @@ Simulação de um ambiente AWS Cloud em minha máquina local usando o LocalStack
 └──────────────────────────┴─────────────┘
 ```
 
+---
 ### Requesitos
 
 - docker
@@ -54,6 +55,7 @@ Simulação de um ambiente AWS Cloud em minha máquina local usando o LocalStack
 - pip3
 - tfswitch ou terraform
 
+---
 ### Instalação
 
 ```bash
@@ -64,6 +66,7 @@ pip3 install awscli-local
 pip3 install terraform-local
 ```
 
+---
 ### Configuração inicial
 
 ```bash
@@ -74,6 +77,7 @@ export AWS_DEFAULT_REGION="us-east-1"
 
 OBS.: Essa configuração inicial não precisa se vocẽ estiver usando os comando *awslocal* e *tflocal*!
 
+---
 ### Iniciar e checar o localstack
 
 ```bash
@@ -82,6 +86,7 @@ localstack status docker
 localstack status services
 ```
 
+---
 ### Comandos
 
 - **AWS Cli:**
