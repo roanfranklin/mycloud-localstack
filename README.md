@@ -75,7 +75,13 @@ export AWS_SECRET_ACCESS_KEY="test"
 export AWS_DEFAULT_REGION="us-east-1"
 ```
 
-OBS.: Essa configuração inicial não precisa se vocẽ estiver usando os comando *awslocal* e *tflocal*!
+Ou configure o aws cli com o comando:
+
+```bash
+aws configure
+```
+
+OBS.: Lembre de utilizar o comando *awslocal* e *tflocal*. Assim não precisa ficar executando o comando *aws* com o *endpoint*!
 
 ---
 ### Iniciar e checar o localstack
